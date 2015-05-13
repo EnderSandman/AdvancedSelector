@@ -1,0 +1,17 @@
+ID: 1
+Data: 0
+Spot: 1
+Name: '&2Example'
+Lore:
+- '&aHello there! :D'
+Enchantments:
+  1:
+    Name: ARROW_INFINITE
+    Level: 1
+InteractPermission: None
+InteractType: Inventory
+InteractValue:
+- Lol
+Clicks:
+  Left: false
+  Right: true

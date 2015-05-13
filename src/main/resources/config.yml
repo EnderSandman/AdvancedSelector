@@ -1,0 +1,45 @@
+#For help, go to: http://dev.bukkit.org/bukkit-plugins/advancedselectors/pages/config/
+DontChangeMe: true
+onWalkOverLocation:
+  1:
+    World: world
+    X: 10
+    Y: 10
+    Z: 10
+    Permission: None
+    Type: Selector
+    Value: Example
+onInteractWithLocation:
+  1:
+    World: world
+    X: 10
+    Y: 10
+    Z: 10
+    Permission: None
+    Type: Selector
+    Value: Example
+    Clicks:
+      Left: false
+      Right: true
+  2:
+    World: world
+    X: 10
+    Y: 10
+    Z: 10
+    Permission: None
+    Type: Inventory
+    Value: Lol
+    Clicks:
+      Left: false
+      Right: true
+onCommand:
+  1:
+    Command: hub
+    Permission: None
+    Type: Inventory
+    Value: Lol
+onJoin:
+  1:
+    Permission: AdvancedSelector.Join
+    Type: Selector
+    Value: Example
